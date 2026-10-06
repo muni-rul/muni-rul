@@ -1,30 +1,137 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" role="img" aria-label="Muni Rul — AI-assisted software developer and IoT developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-label="Munirul — AI-assisted developer, IoT builder and product creator">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020617"/><stop offset=".5" stop-color="#0b1120"/><stop offset="1" stop-color="#111827"/></linearGradient>
-<linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
-<filter id="g"><feGaussianBlur stdDeviation="24"/></filter>
-<style>.p{animation:pulse 3s ease-in-out infinite}.f{animation:float 5s ease-in-out infinite}.d{stroke-dasharray:10 14;animation:dash 3s linear infinite}.b{animation:blink 1.1s steps(2,end) infinite}@keyframes pulse{0%,100%{opacity:.16}50%{opacity:.5}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}@keyframes dash{to{stroke-dashoffset:-72}}@keyframes blink{0%,45%{opacity:1}46%,100%{opacity:.1}}</style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#020617"/>
+    <stop offset=".5" stop-color="#07111f"/>
+    <stop offset="1" stop-color="#111827"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" x2="1">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset=".5" stop-color="#38bdf8"/>
+    <stop offset="1" stop-color="#6366f1"/>
+  </linearGradient>
+  <linearGradient id="textGlow" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset=".55" stop-color="#dbeafe"/>
+    <stop offset="1" stop-color="#67e8f9"/>
+  </linearGradient>
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="28"/>
+  </filter>
+  <filter id="soft">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+    <path d="M80 0H0V80" fill="none" stroke="#94a3b8" stroke-opacity=".055"/>
+  </pattern>
+  <style>
+    .glow{animation:glow 3.4s ease-in-out infinite}
+    .float{animation:float 5.2s ease-in-out infinite}
+    .float2{animation:float2 6s ease-in-out infinite}
+    .dash{stroke-dasharray:12 16;animation:dash 2.8s linear infinite}
+    .dash2{stroke-dasharray:5 13;animation:dash2 3.6s linear infinite}
+    .blink{animation:blink 1.25s steps(2,end) infinite}
+    .scan{animation:scan 4s ease-in-out infinite}
+    .pulseDot{animation:pulseDot 1.8s ease-in-out infinite}
+    .pulseDot2{animation:pulseDot 1.8s ease-in-out infinite .7s}
+    .type{animation:type 3.8s steps(34,end) infinite}
+    @keyframes glow{0%,100%{opacity:.16}50%{opacity:.42}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    @keyframes float2{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(7px) rotate(1.5deg)}}
+    @keyframes dash{to{stroke-dashoffset:-112}}
+    @keyframes dash2{to{stroke-dashoffset:-72}}
+    @keyframes blink{0%,42%{opacity:1}43%,100%{opacity:.08}}
+    @keyframes scan{0%,100%{transform:translateY(0);opacity:.08}45%{transform:translateY(185px);opacity:.55}52%{opacity:.08}}
+    @keyframes pulseDot{0%,100%{r:7;opacity:.42}50%{r:12;opacity:1}}
+    @keyframes type{0%,8%{opacity:0}12%,78%{opacity:1}86%,100%{opacity:0}}
+  </style>
 </defs>
-<rect width="1600" height="640" rx="38" fill="url(#bg)"/>
-<circle cx="180" cy="90" r="150" fill="#22d3ee" filter="url(#g)" class="p"/>
-<circle cx="1410" cy="510" r="190" fill="#6366f1" filter="url(#g)" class="p"/>
-<g opacity=".055" stroke="#fff"><path d="M0 128H1600M0 256H1600M0 384H1600M0 512H1600"/><path d="M200 0V640M400 0V640M600 0V640M800 0V640M1000 0V640M1200 0V640M1400 0V640"/></g>
-<g transform="translate(78 70)" class="f"><circle cx="48" cy="48" r="48" fill="#07101f" stroke="#334155" stroke-width="2"/><path d="M48 12 60 35 84 48 60 61 48 84 36 61 12 48 36 35Z" fill="url(#a)"/><circle cx="48" cy="48" r="9" fill="#fff"/></g>
-<text x="180" y="92" fill="#67e8f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="5">MUNI RUL // BUILDER PROFILE</text>
-<text x="180" y="165" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="-3">Build what can exist.</text>
-<text x="184" y="213" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">AI-assisted software developer • IoT developer • product builder</text>
-<g transform="translate(184 258)" class="f"><rect width="690" height="245" rx="26" fill="#020617" stroke="#334155"/><circle cx="28" cy="25" r="6" fill="#fb7185"/><circle cx="48" cy="25" r="6" fill="#fbbf24"/><circle cx="68" cy="25" r="6" fill="#34d399"/>
-<text x="30" y="62" fill="#64748b" font-family="monospace" font-size="14">muni-rul://build-console</text>
-<text x="30" y="104" fill="#67e8f9" font-family="monospace" font-size="18">$ whoami</text>
-<text x="30" y="136" fill="#e2e8f0" font-family="monospace" font-size="18">ai-assisted developer + iot builder</text>
-<text x="30" y="170" fill="#67e8f9" font-family="monospace" font-size="18">$ focus</text>
-<text x="30" y="202" fill="#a7f3d0" font-family="monospace" font-size="18">software × devices × spatial experiences</text>
-<text x="30" y="232" fill="#c4b5fd" font-family="monospace" font-size="18">$ ship <tspan class="b">▋</tspan></text></g>
-<g transform="translate(940 264)"><rect width="560" height="238" rx="28" fill="#08101f" stroke="#334155"/>
-<text x="30" y="42" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">BUILD SIGNAL</text>
-<path d="M56 158 C126 96 205 164 278 114 S422 64 500 132" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" class="d"/>
-<circle cx="56" cy="158" r="11" fill="#fff" stroke="#22d3ee" stroke-width="5"/><circle cx="500" cy="132" r="11" fill="#fff" stroke="#6366f1" stroke-width="5"/>
-<g transform="translate(30 72)"><rect width="114" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="22" y="22" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">AI-ASSISTED</text><rect x="124" width="86" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="147" y="22" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">IoT</text><rect x="220" width="96" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="244" y="22" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">3D / AR</text><rect x="326" width="110" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="350" y="22" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">FULL STACK</text></g>
-<text x="30" y="208" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Idea → prototype → real device → real user</text></g>
-<text x="78" y="584" fill="#64748b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">github.com/muni-rul</text><text x="1155" y="584" fill="#64748b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">learning • shipping • iterating</text>
+
+<rect width="1600" height="650" rx="38" fill="url(#bg)"/>
+<rect width="1600" height="650" rx="38" fill="url(#grid)"/>
+
+<circle cx="120" cy="90" r="190" fill="#06b6d4" filter="url(#blur)" class="glow"/>
+<circle cx="1450" cy="560" r="220" fill="#4f46e5" filter="url(#blur)" class="glow"/>
+<circle cx="820" cy="330" r="300" fill="#0ea5e9" filter="url(#blur)" opacity=".055"/>
+
+<!-- moving signal lines -->
+<path d="M0 525 C260 455 360 590 610 505 S1050 445 1600 515" fill="none" stroke="#22d3ee" stroke-opacity=".10" stroke-width="2" class="dash2"/>
+<path d="M0 545 C260 475 370 610 625 525 S1080 465 1600 535" fill="none" stroke="#6366f1" stroke-opacity=".10" stroke-width="2" class="dash2"/>
+
+<!-- identity -->
+<text x="74" y="76" fill="#67e8f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="4">MUNIRUL // BUILDER PROFILE</text>
+<circle cx="72" cy="112" r="6" fill="#22d3ee" class="pulseDot"/>
+<text x="91" y="118" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">building software that reaches the real world</text>
+
+<text x="72" y="206" fill="url(#textGlow)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="78" font-weight="850" letter-spacing="-3">Munirul.</text>
+<text x="76" y="252" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" letter-spacing="1.5">AI-ASSISTED DEVELOPER  ×  IOT BUILDER  ×  PRODUCT CREATOR</text>
+
+<!-- terminal -->
+<g transform="translate(72 296)" class="float">
+  <rect width="650" height="230" rx="26" fill="#020617" stroke="#334155" stroke-width="1.5"/>
+  <rect x="0" y="0" width="650" height="42" rx="26" fill="#0b1220"/>
+  <circle cx="24" cy="21" r="6" fill="#fb7185"/>
+  <circle cx="44" cy="21" r="6" fill="#fbbf24"/>
+  <circle cx="64" cy="21" r="6" fill="#34d399"/>
+  <text x="96" y="26" fill="#64748b" font-family="monospace" font-size="13">munirul@builder:~</text>
+
+  <text x="28" y="77" fill="#67e8f9" font-family="monospace" font-size="17">$ whoami</text>
+  <text x="28" y="104" fill="#e2e8f0" font-family="monospace" font-size="17">AI-assisted developer + IoT builder</text>
+  <text x="28" y="137" fill="#67e8f9" font-family="monospace" font-size="17">$ stack</text>
+  <text x="28" y="164" fill="#a7f3d0" font-family="monospace" font-size="17">web • AI tools • Arduino • ESP32 • Raspberry Pi</text>
+  <text x="28" y="197" fill="#c4b5fd" font-family="monospace" font-size="17">$ ship <tspan class="blink">▋</tspan></text>
+</g>
+
+<!-- right-side product / hardware scene -->
+<g transform="translate(790 82)">
+  <rect x="0" y="0" width="735" height="444" rx="30" fill="#06101d" stroke="#334155" stroke-width="1.5"/>
+
+  <text x="34" y="42" fill="#64748b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="2.5">BUILD SIGNAL</text>
+
+  <!-- orbit / system graph -->
+  <g transform="translate(42 70)">
+    <path d="M28 150 C115 78 184 174 270 112 S438 57 635 118" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" class="dash"/>
+    <path d="M28 174 C125 110 204 204 298 146 S468 95 635 143" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" class="dash2" opacity=".7"/>
+    <circle cx="28" cy="150" r="9" fill="#fff" stroke="#22d3ee" stroke-width="5" class="pulseDot"/>
+    <circle cx="270" cy="112" r="8" fill="#fff" stroke="#38bdf8" stroke-width="4" class="pulseDot2"/>
+    <circle cx="635" cy="118" r="9" fill="#fff" stroke="#6366f1" stroke-width="5"/>
+    <text x="0" y="214" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">IDEA</text>
+    <text x="235" y="76" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">PROTOTYPE</text>
+    <text x="578" y="80" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">REAL USER</text>
+  </g>
+
+  <!-- badges -->
+  <g transform="translate(34 300)">
+    <rect width="158" height="48" rx="16" fill="#0b1727" stroke="#334155"/>
+    <circle cx="24" cy="24" r="8" fill="#22d3ee"/>
+    <text x="44" y="29" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">SOFTWARE</text>
+
+    <rect x="170" width="132" height="48" rx="16" fill="#0b1727" stroke="#334155"/>
+    <circle cx="194" cy="24" r="8" fill="#a78bfa"/>
+    <text x="214" y="29" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">AI</text>
+
+    <rect x="314" width="132" height="48" rx="16" fill="#0b1727" stroke="#334155"/>
+    <circle cx="338" cy="24" r="8" fill="#34d399"/>
+    <text x="358" y="29" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">IoT</text>
+
+    <rect x="458" width="205" height="48" rx="16" fill="#0b1727" stroke="#334155"/>
+    <circle cx="482" cy="24" r="8" fill="#38bdf8"/>
+    <text x="502" y="29" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">SPATIAL / AR</text>
+  </g>
+
+  <!-- WayCampus focus card -->
+  <g transform="translate(34 366)" class="float2">
+    <rect width="500" height="58" rx="18" fill="#071625" stroke="#0e7490" stroke-opacity=".7"/>
+    <rect x="0" y="0" width="5" height="58" rx="3" fill="url(#cyan)"/>
+    <text x="24" y="23" fill="#67e8f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="2">BUILDING</text>
+    <text x="24" y="45" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800">WayCampus</text>
+    <text x="184" y="43" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">navigation • 360° • future AR</text>
+  </g>
+</g>
+
+<!-- subtle animated scanline -->
+<rect x="52" y="286" width="1495" height="2" rx="1" fill="#22d3ee" opacity=".06" class="scan"/>
+
+<text x="72" y="610" fill="#64748b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">github.com/muni-rul</text>
+<text x="1260" y="610" fill="#64748b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">BUILD • TEST • LEARN • SHIP</text>
 </svg>
