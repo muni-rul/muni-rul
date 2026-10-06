@@ -1,7 +1,7 @@
-<!-- Muni Rul — GitHub Profile -->
+<!-- Munirul — GitHub Profile -->
 
 <p align="center">
-  <img src="./profile-banner.svg" alt="Muni Rul — AI-assisted software developer and IoT developer" width="100%" />
+  <img src="./profile-banner.svg" alt="Munirul — AI-assisted software developer and IoT developer" width="100%" />
 </p>
 
 <p align="center">
@@ -16,9 +16,9 @@
 
 ---
 
-## 👋 I build at the intersection of software and the real world
+## 👋 I build where software meets the real world
 
-I'm **Muni Rul** — an **AI-assisted software developer, IoT developer, and product builder** focused on turning ideas into systems that people can actually use.
+I'm **Munirul** — an **AI-assisted software developer, IoT developer, and product builder** focused on turning ideas into systems that people can actually use.
 
 AI is part of my engineering workflow: I use it to explore architectures, prototype faster, investigate bugs, generate test ideas, document systems, and iterate on implementation. **The final system still has to work.**
 
